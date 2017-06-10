@@ -2,4 +2,10 @@
 
 This Jupyter Notebook provides simple interactive graphical interface to explore [[https://en.wikipedia.org/wiki/Couette_flow][Couettte flow]] and [[https://en.wikipedia.org/wiki/Hagen%E2%80%93Poiseuille_equation][Poiseuille flow]]. The code is written in Python.
 
-In order to interact with the simulation, run the notebook ([[./CFD_intro.ipynb]]) on a computer with IPython, Jupyter, and Jupyter widgets version 6.
+In order to interact with the simulation, run the notebook ([[./CFD_intro.ipynb][CFD_intro.ipynb]]) on a computer with IPython, Jupyter, and Jupyter widgets version 6.
+
+#+NAME: fig:screenshot
+#+CAPTION: Screenshot
+[[./screenshot.png]]
+
+This work completed as part of NSF Award # [[https://www.nsf.gov/awardsearch/showAward?AWD_ID=1503928][1503928]].
