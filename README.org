@@ -9,3 +9,21 @@ In order to interact with the simulation, run the notebook ([[./CFD_intro.ipynb]
 [[./screenshot.png]]
 
 This work completed as part of NSF Award # [[https://www.nsf.gov/awardsearch/showAward?AWD_ID=1503928][1503928]].
+
+* Development
+** Conda Env
+
+#+BEGIN_SRC sh :results verbatim :eval no-export
+conda create --n NSFCFDBI python=3.5
+source activate NSFCFDBI
+conda install ipywidgets -c conda-forge
+conda install pyside
+#+END_SRC
+#+RESULTS:
+
+** Run
+#+BEGIN_SRC sh :results verbatim :eval no-export
+jupyter-notebook
+#+END_SRC
+#+RESULTS:
+
